@@ -1,0 +1,68 @@
+body {
+    padding: 0px;
+    background: gray;
+}
+
+.viewer {
+    height: 400px;
+    display: flex;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+#right-arrow {
+    transform: rotate(0.5turn);
+}
+
+aside {
+    width: 50px;
+    background: white;
+}
+
+content {
+    position: relative;
+    top: 45%;
+    left: 35%;
+}
+
+.main-image {
+    width: 800px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+}
+
+#photo {
+    height: 100%;
+    max-width: 100%;
+    
+}
+
+.gray-container {
+    position: absolute;
+    width: 780px;
+    left: 0px;
+    bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: black;
+    color: whitesmoke;
+    opacity: 0.75;
+    text-align: left;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 5px;
+}
+
+p {
+    font-size: 18px;
+    color: gray;
+    margin: 15px 5px ;
+}
+
+#left-arrow:hover, #right-arrow:hover {
+    opacity: 0.5;
+}
